@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #d8d8d8;
+    color: #0f141e;
+    font-size: 16px ;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 36px;
+    max-width: 30%;
+    margin: auto;
+}
+
+.img2 {
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 025);
+    width: 500px;
+    left: 421px;
+    top: 1905px;
+}
+
+.img {
+    position: absolute;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 025);
+    left: 824px;
+    top: 316.5px;
+}
+
+.info  {
+    color: rgb(92, 91, 91);
+    word-spacing: 2px;
+}
+
+.contents {
+    background: rgb(0, 0, 0);
+    color: rgb(75, 75, 75);
+    border-radius: 20px;
+    width: 350px;
+    padding: 10px 60px 5px 0px;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 025);
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+}
+
+a {
+   color: rgb(75, 75, 75);
+   text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contentsh2 {
+    margin: 5px 0px 10px 40px;
+    color: #fff;
+    /*color: #fff9dc;
+    color: #e5ffe7;
+    color: #ffe5e5;
+    color: rgb(215, 214, 255)*/
+}
+
+.contents li {
+    width: 300px;
+    padding: 0;
+    padding-bottom: 2px;
+    word-spacing: 4px;
+    margin-left: 15px;
+}
+
+.contentsbg-yellow {
+    background: #fff9dc;
+    border-radius: 14px;
+    width: 320px;
+    margin-left: 0px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+ol {
+    width: 310px;
+}
+
+.contentsbg-green {
+    background: #e5ffe7;
+    border-radius: 14px;
+    padding-left: 15px;
+    width: 320px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.contentsbg-red {
+    background: #ffe5e5;
+    border-radius: 14px;
+    padding-left: 15px;
+    width: 320px;
+    margin-left: 0;
+
+}
+
+.oneline {
+    font-size: 18px;
+}
+
+.twoline {
+    background: #fff9dc;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.h2-1 {
+    font-size: 28px;
+    max-width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #fff9dc;
+    width: 232px;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.threeline {
+    background: #fff9dc;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.h2-2 {
+    font-size: 28px;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #fff9dc;
+    width: 600px;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.fourline {
+    background: #e5ffe7;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.h2-3 {
+    font-size: 28px;
+    max-width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #e5ffe7;
+    width: 118px;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.fiveline {
+    background: #e5ffe7;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.h2-4 {
+    font-size: 28px;
+    max-width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #e5ffe7;
+    width: 133px;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.sixline {
+    background: #ffe5e5;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.h2-5 {
+    font-size: 28px;
+    max-width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #ffe5e5;
+    width: 164px;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.sixline li {
+    width: 940px;
+}
+
+.sevenline {
+    background: #ffe5e5;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+.h2-6 {
+    font-size: 28px;
+    max-width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #ffe5e5;
+    width: 150px;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 025);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
